@@ -157,15 +157,17 @@ body {
 
 
 footer {
-    position: relative;
-    width: 100vw; /* El footer ocupará el 100% del ancho de la ventana */
-    height: 40px;
-    margin-left: -57px; /* Compensa el padding del body */
-    margin-right: -57px; /* Compensa el padding del body */
+    /* position: relative; */
+    width: 100vw;
+    /* height: 40px; */
+    margin-left: -57px; 
+    /* Compensa el padding del body */
+    margin-right: -57px; 
+    /* Compensa el padding del body */
     margin-top: 30px;
     background-color: #203350;
     text-align: center;
-    padding: 10px 0;
+    padding: 2rem 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
     bottom: 0;
     color: white;
