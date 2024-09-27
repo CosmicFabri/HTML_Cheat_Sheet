@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Cheat Sheet</title>
+</head>
+<body>
+    <img id="logo_title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="50px" width="50px">
+    <h1 id="title" class="dark_color title_font">HTML Cheat Sheet</h1>
+    <h1 id="creator_name" class="title_font">By Fabrizio Guzmán</h1>
+    <div id="container">
+        <!-- Primera gran columna -->
+        <div id="div1">
+            <div class="tag_container">
+
+                <!-- DOCUMENT OUTLINE -->
+                <h2 class="container_title">Document Outline</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &lt!DOCTYPE html&gt</th>
+                        <th class="t_description">Version of HTML. Informs a web browser the document
+                                                  being rendered is of type HTML</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &lthtml&gt</th>
+                        <th class="t_description">HTML document</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &lthead&gt</th>
+                        <th class="t_description">Page information. Metadata container</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltbody&gt</th>
+                        <th class="t_description">Page contents</th>
+                    </tr>
+                </table>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210401153104/htmlstrc.PNG" class="image">
+
+                <!-- LAYOUT -->
+                <h2 class="container_title_rest">Layout</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &ltheader&gt</th>
+                        <th class="t_description">Represents a container for introductory content
+                                                  or a set of navigational links</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltnav&gt</th>
+                        <th class="t_description">Defines a set of navigation links</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &ltmain&gt</th>
+                        <th class="t_description">Specifies the main content of a document</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltaside&gt</th>
+                        <th class="t_description">Defines some content aside from the content it is placed in</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &ltfooter&gt</th>
+                        <th class="t_description">Defines a footer for a document section</th>
+                    </tr>
+                </table>
+                <img src="https://user-images.githubusercontent.com/23123158/74051384-20c89000-49d8-11ea-8aff-5ea6b6d7b614.png" class="image">
+
+                <!-- PAGE INFORMATION -->
+                <h2 class="container_title_rest">Page Information</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &lttitle&gt</th>
+                        <th class="t_description">Defines the title of the document. The title
+                                                  is text-only and shown in the tab</th>
+                    </tr>
+                </table>
+                <img src="https://www.w3schools.com/html/pagetitle.jpg" class="image">
+
+                <!-- Links -->
+                <h2 class="container_title_rest">Links</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &lta href=""&gt</th>
+                        <th class="t_description">Page link</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &lta href="mailto"&gt</th>
+                        <th class="t_description">Email link</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &lta name="name"&gt</th>
+                        <th class="t_description">Anchor</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &lta href="#name"&gt</th>
+                        <th class="t_description">Link to anchor</th>
+                    </tr>
+                </table>
+                <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/11/anchor-in-html-op-1.png" class="image">
+
+                <!-- OBJECTS -->
+                <h2 class="container_title_rest">Objects</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &ltobject&gt</th>
+                        <th class="t_description">Defines a container for an external resource (page, picture, media, etc.)</th>
+                    </tr>
+                </table>
+                <img src="https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-object-tag-in-html.png" class="image">
+
+                <!-- AUDIO, VIDEO & OTHERS -->
+                <h2 class="container_title_rest">Audio, Video & Others</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &ltimg&gt</th>
+                        <th class="t_description">Used to embed or import images in a webpage</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltaudio&gt</th>
+                        <th class="t_description">Used to embed sound content in the document</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &ltvideo&gt</th>
+                        <th class="t_description">Used to embed videos on a webpage</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltsource&gt</th>
+                        <th class="t_description">Specifies an inline frame; used to embed another document
+                            within the current HTML doc
+                        </th>
+                    </tr>
+                </table>
+                <img src="https://learnwebcode.com/images/lessons/insert-image-funny-dog-2.jpg" class="image">
+            </div>
+        </div>
+
+        <!-- Segunda gran columna -->
+        <div id="div2">
+            <div class="tag_container">
+
+                <!-- DOCUMENT STRUCTURE -->
+                <h2 class="container_title">Document Structure</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &lth[1-6]&gt</th>
+                        <th class="t_description">Defines HTML heading</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltspan&gt</th>
+                        <th class="t_description">Inline container used to mark up a part of a text,
+                                                  or a part of a document</th>
+                    </tr>
+                    <tr class="odd last">
+                        <th class="t_name">• &ltp&gt</th>
+                        <th class="t_description">Defines a paragraph. Browsers automatically add a
+                                                  single blank line before and after it</th>
+                    </tr>
+                </table>
+                <img src="https://img.uxcel.com/practices/the-heading-tags-h1-to-h6-1615535492158/a-1702048418566-2x.jpg" class="image">
+
+                <!-- LISTS -->
+                <h2 class="container_title_rest">Lists</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &ltol&gt</th>
+                        <th class="t_description">Ordered list</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltul&gt</th>
+                        <th class="t_description">Unordered list</th>
+                    </tr>
+                    <tr class="odd last">
+                        <th class="t_name">• &ltdl&gt</th>
+                        <th class="t_description">Definition list</th>
+                    </tr>
+                </table>
+                <img src="https://i.ytimg.com/vi/3wO89xVkNKg/maxresdefault.jpg" class="image">
+
+                <!-- LIST ELEMENTS -->
+                <h2 class="container_title_rest">List Elements</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &ltli&gt</th>
+                        <th class="t_description">List item</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltdt&gt</th>
+                        <th class="t_description">Definition term</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &ltdd&gt</th>
+                        <th class="t_description">Term description</th>
+                    </tr>
+                </table>
+                <img src="https://scaler.com/topics/images/html-lists-example66.webp" class="image">
+
+                <!-- FORMS -->
+                <h2 class="container_title_rest">Forms</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &ltform&gt</th>
+                        <th class="t_description">Defines a form</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltlabel&gt</th>
+                        <th class="t_description">Input label</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &ltselect&gt</th>
+                        <th class="t_description">Drop-down box</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltoption&gt</th>
+                        <th class="t_description">Drop-down options</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &ltinput&gt</th>
+                        <th class="t_description">Form input</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &lttextarea&gt</th>
+                        <th class="t_description">Large text input</th>
+                    </tr>
+                </table>
+                <img src="https://media.24ways.org/2009/03/form-final.png" class="image">
+
+
+                <!-- TABLE DEFINITION -->
+                <h2 class="container_title_rest">Table Definition</h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &lttable&gt</th>
+                        <th class="t_description">Defines a table</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &lttr&gt</th>
+                        <th class="t_description">Table row</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &lttd&gt</th>
+                        <th class="t_description">Table cell</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &ltth&gt</th>
+                        <th class="t_description">Header cell</th>
+                    </tr>
+                </table>
+                <img src="https://ictacademy.com.ng/wp-content/uploads/2017/10/HTML-Table-Structure.png" class="image">
+
+                <!-- TABLE STRUCTURE -->
+                <h2 class="container_title_rest">Table Structure    </h3>
+                <table class="t_tag_container">
+                    <tr class="odd">
+                        <th class="t_name">• &ltthead&gt</th>
+                        <th class="t_description">Table header</th>
+                    </tr>
+                    <tr>
+                        <th class="t_name">• &lttbody&gt</th>
+                        <th class="t_description">Table body</th>
+                    </tr>
+                    <tr class="odd">
+                        <th class="t_name">• &lttfoot&gt</th>
+                        <th class="t_description">Table footer</th>
+                    </tr>
+                </table>
+                <img id="last_image" src="https://content.dodea.edu/VS/HS/webdesign/masterz/s/module4/images/table-tag-example.gif" class="image">
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    Written in english for learning purposes. 
+    <a href="https://github.com/CosmicFabri?tab=repositories" style="color: white;">My GitHub profile!</a>
+</footer>
+</html>
